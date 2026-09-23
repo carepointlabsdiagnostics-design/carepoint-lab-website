@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f7f9;
+  color: #222;
+}
+
+h1 {
+  background: #0b6e69;
+  color: white;
+  margin: 0;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #0b6e69;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #0b6e69;
+  margin-top: 25px;
+}
+
+p {
+  max-width: 800px;
+  margin: 12px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+}
